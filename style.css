@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+  --btn-bg-color: #608BC1;
+  --span-text-color: #d3d3d3;
+  --body-bg-color: #243642;
+  --res-color: #FAB12F;
+  --again-bg-color: #41B3A2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s ease;
+  font-family: 'Open sans', sans-serif;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+button:active{
+  transform: scale(1);
+}
+
+body{
+  background: var(--body-bg-color);
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-size: 42px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.expo{
+  color: var(--span-text-color);
+  text-align: center;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.choice-container_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 500px;
+  flex-direction: row;
+}
+
+.choice-btn{
+  background: var(--btn-bg-color);
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 100px;
+}
+
+.sticker{
+  margin: 0 auto;
+}
+
+.btn-name{
+  margin: 0 auto;
+}
+
+.choose-sect{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.choose{
+  text-align: center;
+  font-size: 18px;
+  color: var(--span-text-color);
+}
+
+.content-end_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+#result{
+  font-size: 32px;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--res-color);
+}
+
+#again{
+  background: var(--again-bg-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

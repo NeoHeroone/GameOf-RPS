@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="big-box">
+      <div class="container">
+        <h1 class="title">Rock Paper Scissors</h1>
+
+        <p class="expo">make your choice!</p>
+
+        <div class="choice-container_box">
+          <button class="choice-btn" id="rockBtn">
+            <span class="sticker"> ✊ </span>
+
+            <span id="rock" class="btn-name"> Rock </span>
+          </button>
+          <button class="choice-btn" id="paperBtn">
+            <span class="sticker"> ✋ </span>
+
+            <span id="paper" class="btn-name"> Paper </span>
+          </button>
+          <button class="choice-btn" id="scissorBtn">
+            <span class="sticker"> ✌️ </span>
+            <span id="scissor" class="btn-name"> Scissors </span>
+          </button>
+        </div>
+
+        <div class="choose-sect">
+          <span class="choose">
+            You choose:
+            <span id="chooseUser"> - </span>
+          </span>
+          <span class="choose">
+            Computer choose:
+            <span id="choosePc"> - </span>
+          </span>
+        </div>
+
+        <div class="content-end_box">
+          <span id="result"> Let's play </span>
+
+          <button id="again">
+            <img src="./again.svg" alt="Play Again" />
+            <span> Play again </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
